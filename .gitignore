@@ -1,5 +1,63 @@
-#virtual-env
-.venv
+# --- Python basics ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
 
-#IDE
-.idea
+# --- Virtual environments ---
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Build & packaging ---
+build/
+dist/
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# --- Jupyter & notebooks ---
+.ipynb_checkpoints
+*.ipynb
+
+# --- AI/ML specific ---
+# Model weights & checkpoints
+*.ckpt
+*.pth
+*.pt
+*.h5
+*.tflite
+*.onnx
+
+# Hugging Face / Transformers cache
+.cache/
+transformers_cache/
+datasets/
+hub/
+
+# TensorBoard logs
+runs/
+logs/
+
+# --- OS & IDE files ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Agentic AI / experiments ---
+experiments/
+outputs/
+artifacts/
